@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Header from './Header.js';
-import Intro from './Intro.js';
+// import Intro from './Intro.js';
 // import Number from './Number.js';
-import Selector from './Selector.js';
+// import Selector from './Selector.js';
 import MoneyConverter from './MoneyConverter.js';
+// import Calculation from './Calculation.js';
 
 class App extends Component {
   constructor(props) {
@@ -26,11 +27,12 @@ class App extends Component {
     return (
       <div>
         <Header className="App" lop= {'Hoai'}/>
-        <Intro className="App" class = {'React'}/>
+        {/* <Intro className="App" class = {'React'}/> */}
         {/* <Number class = {'React'}/> */}
         {/* <h1>{this.state.value}</h1> */}
         {/* <Selector/> */}
         <MoneyConverter/>
+        {/* <Calculation/> */}
       </div>
     )
   }
